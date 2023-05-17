@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p><button id="googleHome">Google Home Page</button></p>
+    <p><button id="w3">W3 Schools</button></p>
+    <p><button id="imagesPage">Images Page</button></p>
+    <script>
+      let googleHomeEl = document.getElementById("googleHome");
+      googleHomeEl.onclick = function () {
+        window.open("https://www.Google.com/");
+      };
+      let w3El = document.getElementById("w3");
+      w3El.onclick = function () {
+        window.open("https://www.w3Schools.com/js");
+      };
+      let imagesPageEl = document.getElementById("imagesPage");
+      imagesPageEl.onclick = function () {
+        window.open("./images.html", "_self");
+      };
+    </script>
+  </body>
+</html>
